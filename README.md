@@ -60,6 +60,6 @@
 ## Запускаем сервис сокращения URL
 - docker run -d -p 8001:80 -v shorturl_data:/app/data вашлогин/shorturl-service:latest
 
-# Проверка критериев выполнения задания
+# 📝 Проверка критериев выполнения задания
 
 ## - Запуск "check_requirements.py"
