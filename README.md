@@ -50,11 +50,11 @@ uvicorn main:app --host 0.0.0.0 --port 8001
 
 # Запуск через Docker
 
-## Создаем именованные тома для хранения данных
+### Создаем именованные тома для хранения данных
 docker volume create todo_data
 docker volume create shorturl_data
 
-## Запускаем ToDo сервис
+### Запускаем ToDo сервис
 docker run -d -p 8000:80 -v todo_data:/app/data вашлогин/todo-service:latest
 
 ## Запускаем сервис сокращения URL
